@@ -2,8 +2,8 @@ function solution(id_list, report, k) {
   // answer을 list의 길이만큼 배열로 할당하고 0으로 초기화
   // [0,0,0,0]
 
-  const answer = new Array(id_list.length);
-  answer.fill(0);
+  const answer = new Array(id_list.length).fill(0);
+
   // 해쉬자료구조를 이용한 key, value 값을 담을 객체
   /* {
     [신고된 유저 ] : [신고한 유저 아이디]
